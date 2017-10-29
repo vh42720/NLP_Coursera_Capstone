@@ -29,7 +29,7 @@ Storing dictionaries as .RDS seems to be the optimal choice. Using Hashmap/Hasht
 Note that we can bypass creating 3 dictionaries by using only quadgrams model. This is because quadgrams includes all structures from bigrams and trigrams. However, this will slows down the algorithm by 20 - 30% which is undesirable. (and some accuracy)
 
 ### Shiny Application
-The app is hosted ([here]("https://vh42720.shinyapps.io/Predict_Word/")).
+The app is hosted ([here](https://vh42720.shinyapps.io/Predict_Word/))
 
 - You input a string. 
 - The algorithm will return the top 10 possibilities.
